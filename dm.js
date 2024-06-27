@@ -1,6 +1,7 @@
 // DARK MODE SESSION STORAGE TIME OF DAY STUFF
 
-// i'm not sure why you
+// i'm not sure why you wanted to use the "visited" variable
+// so I'm going to ask you about that
 const time = new Date().getHours();
 
 if (!(time < 20 && time > 8)) {
